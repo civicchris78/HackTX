@@ -8,6 +8,5 @@ currentPath = os.getcwd() #Get Current Working Directory
 sys.path.insert(0, '{}/lib'.format(currentPath))
 from camera import Camera
 
-
 #End of Import
 cam = Camera()
